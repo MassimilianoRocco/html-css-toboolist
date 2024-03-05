@@ -52,3 +52,59 @@ button{
 .second-button{
     color:rgb(184, 173, 173);
 }
+
+.container-toboolist{
+    background-color: rgb(255, 255, 255);
+    margin-top: 5px;
+    padding-top: 20px;
+    padding-bottom: 100px;
+}
+
+.ul-titles{
+    padding-left: 6%; 
+    margin-top: 30px;
+}
+
+li{
+    margin-top: 10px;
+}
+
+
+h3{
+    display: inline-block;
+    height: 30px;
+}
+
+.box{
+    margin-left: 10px;
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 20px;
+    color: white;
+    padding: 5px 10px 5px 10px;
+    font-size: 10px;
+}
+
+.blue{
+    background-color: rgb(71,173,241) ;
+}
+
+.green{
+    background-color: rgb(176,201,38);
+}
+
+.pink{
+    background-color: rgb(216,99,161);
+}
+
+.orange{
+    background-color: rgb(242,158,51);
+}
+
+.violet{
+    background-color: rgb(156,114,228);
+}
+
+.aquamarine{
+    background-color: rgb(100,192,169);
+}
+
