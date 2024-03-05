@@ -3,3 +3,52 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+body{
+    background-color: #f6f8f9;
+}
+
+.container-header{
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    align-items: center;
+}
+
+.header-logo{
+    width: 70px;
+    height: auto;
+    margin-left: 20px;
+}
+.header-text{
+    display: inline-block;
+    margin-left: 20px;
+    font-size: 70px;
+}
+
+main{
+    margin: 50px auto;
+    width: 70%;
+}
+
+.container-buttons{ 
+    padding: 15px 0px 8px 0px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 5px 0 0 0;
+}
+
+button{
+    padding: 10px;
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 8px ;
+
+}
+
+.first-button{
+    background-color: rgb(71,173,241);
+    color: white;
+    margin-left: 5%;
+}
+
+.second-button{
+    color:rgb(184, 173, 173);
+}
