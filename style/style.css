@@ -51,6 +51,8 @@ button{
 
 .second-button{
     color:rgb(184, 173, 173);
+    background-color: white;
+    border: 1px solid rgb(184,173,173);
 }
 
 .container-toboolist{
@@ -65,10 +67,43 @@ button{
     margin-top: 30px;
 }
 
+ul{
+    list-style: none;
+}
+
 li{
+    padding-right: 10px;
     margin-top: 10px;
 }
 
+h1{
+    display: inline-block;
+}
+
+.triangle{
+    margin-right: 10px;
+}
+
+.true{
+    display: inline-block;
+    border: 1px solid green;
+    border-radius: 50%;
+    color: green;
+    width: 20px;
+    height: 20px;
+    text-align: center;
+    margin-right: 10px;
+}
+.false{
+    display: inline-block;
+    border: 1px solid red;
+    border-radius: 50%;
+    color: red;
+    width: 20px;
+    height: 20px;
+    text-align: center;
+    margin-right: 10px;
+}
 
 h3{
     display: inline-block;
