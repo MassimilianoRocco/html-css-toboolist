@@ -2,12 +2,15 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: Helvetica, sans-serif;
 }
 
 body{
     background-color: #f6f8f9;
 }
 
+
+            /* HEADER */
 .container-header{
     background-color: rgb(255, 255, 255);
     display: flex;
@@ -25,10 +28,13 @@ body{
     font-size: 70px;
 }
 
+            /* MAIN */
 main{
     margin: 50px auto;
     width: 70%;
 }
+
+            /* BUTTONS */
 
 .container-buttons{ 
     padding: 15px 0px 8px 0px;
@@ -40,7 +46,6 @@ button{
     padding: 10px;
     border: 1px solid rgb(255, 255, 255);
     border-radius: 8px ;
-
 }
 
 .first-button{
@@ -54,6 +59,8 @@ button{
     background-color: white;
     border: 1px solid rgb(184,173,173);
 }
+
+            /* MAIN TOBOOLIST */
 
 .container-toboolist{
     background-color: rgb(255, 255, 255);
@@ -80,6 +87,11 @@ h1{
     display: inline-block;
 }
 
+h3{
+    display: inline-block;
+    height: 30px;
+}
+
 .triangle{
     margin-right: 10px;
 }
@@ -89,25 +101,22 @@ h1{
     border: 1px solid green;
     border-radius: 50%;
     color: green;
-    width: 20px;
-    height: 20px;
+    width: 17px;
+    height: 17px;
     text-align: center;
     margin-right: 10px;
+    font-size: 10px;
 }
 .false{
     display: inline-block;
     border: 1px solid red;
     border-radius: 50%;
     color: red;
-    width: 20px;
-    height: 20px;
+    width: 17px;
+    height: 17px;
     text-align: center;
     margin-right: 10px;
-}
-
-h3{
-    display: inline-block;
-    height: 30px;
+    font-size: 10px;
 }
 
 .box{
